@@ -6,6 +6,8 @@ run radar in self-driving-car
 roslaunch race auto.launch
 ```
 
+put slam.launch  hector_mapping.launch  geotiff_mapper.launch in a package called "uprobotics"
+
 edit slam.launch in  uprobotics
 remark  line 6
 <!-- args="-d $(find hector_slam_launch)/rviz_cfg/mapping_demo.vcg"/ -->

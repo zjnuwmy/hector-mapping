@@ -24,6 +24,7 @@ put slam.launch  hector_mapping.launch  geotiff_mapper.launch in a package calle
 run hector mapping in ros local
 
 ```
+roslaunch hector_mapping mapping_default.launch 
 roslaunch uprobotics slam.launch 
 ```
 
